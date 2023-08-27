@@ -4,7 +4,7 @@ function upload(){
     var data = new Date()
     var hours = data.getHours()
     msg.innerHTML = `Now, it is ${hours} hours.`
-    hours = 23
+    
     if(hours >= 8 && hours < 12){
         //Good Morning
         img.src = 'morning.png'
