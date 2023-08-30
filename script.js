@@ -3,6 +3,7 @@ function upload(){
     var img = window.document.getElementById("img")
     var data = new Date()
     var hours = data.getHours()
+    hours = 13
     msg.innerHTML = `Now, it is ${hours} hours.`
     
     if(hours >= 8 && hours < 12){
